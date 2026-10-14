@@ -7,7 +7,7 @@ A tiny tool package: `DihuanTool.calculate(number)` returns `number * 2 + 1`.
 Install from GitHub (no npm publish needed):
 
 ```bash
-npm install github:<你的GitHub用户名>/<仓库名>
+npm install github:Dream-Dihuan/DihuanTestNpmDependence
 ```
 
 ## Usage

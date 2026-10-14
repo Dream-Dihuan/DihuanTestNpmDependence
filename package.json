@@ -1,0 +1,15 @@
+{
+  "name": "dihuan-tool",
+  "version": "1.0.0",
+  "description": "the tool of dihuan, DihuanTool.calculate(number) returns number * 2 + 1",
+  "license": "MIT",
+  "author": "dihuan",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  }
+}

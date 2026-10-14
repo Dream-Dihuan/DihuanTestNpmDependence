@@ -573,6 +573,7 @@ git push
 | `fatal: not a git repository` | 没先执行 `git init`，或不在项目根目录 |
 | `rejected ... non-fast-forward` | 远程仓库有初始化文件，执行 `git pull --rebase origin main` 后再推 |
 | `Authentication failed` | 登录凭据过期，去"控制面板 → 凭据管理器"删除 github.com 条目重试 |
+| `Failed to connect to github.com port 443` | 网络无法直连 GitHub。若本机有代理（如 7897 端口），当次执行：`set "HTTPS_PROXY=http://127.0.0.1:7897"` 后再 `git push`（仅当前窗口生效） |
 | 推送成功但看不到文件 | 检查是否 `.gitignore` 写错排除了 `src/` |
 
 ### 6.8 确认理解
